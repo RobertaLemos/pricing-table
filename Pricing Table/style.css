@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  height: 100vh;
+}
+
+header {
+  padding: 100px 444px 215px;
+  background: #1d539e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header h3 {
+  font-size: 48px;
+  color: #fff;
+  text-align: center;
+  min-width: 553px;
+}
+header p {
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  min-width: 553px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+main {
+  position: relative;
+}
+.card-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  top: -167px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 355px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 1px 2px 0px rgba(142, 150, 185, 0.25);
+}
+
+.card .header {
+  padding: 30px 0 20px 30px;
+}
+.card .header h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1e2338;
+}
+
+.card .value {
+  display: flex;
+  align-items: center;
+  padding: 0px 0px 10px 30px;
+}
+
+.card .value h3 {
+  color: #1e2338;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.card .value .cents {
+  color: #1e2338;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: baseline;
+}
+
+.card .value .period {
+  font-size: 18px;
+  color: #828799;
+}
+.card .descrition {
+  padding: 0px 0px 20px 30px;
+}
+.card .descrition .text {
+  color: #828799;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+hr {
+  background: #eee;
+
+  margin: 0px 30px 20px;
+}
+
+.card .service {
+  padding: 0px 0px 42px 30px;
+  height: 136px;
+}
+.card .service ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card .service .proposal {
+  color: #828799;
+  font-size: 14px;
+  font-weight: 600;
+  gap: 15px;
+  align-items: center;
+  display: flex;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 30px 30px 30px;
+  align-items: center;
+}
+
+.footer button {
+  padding: 12px 24px;
+  border-radius: 10px;
+  border: 1px solid #1d539e;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  width: 296px;
+  gap: 10px;
+  font-size: 18px;
+
+  text-align: center;
+  font-weight: 600;
+  color: hsl(215, 69%, 37%, 1);
+  text-transform: uppercase;
+}
+
+.footer #emphasis {
+  background-color: #1d539e;
+  color: #fff;
+}
+
+.footer .effect:hover {
+  background-color: #1d539e;
+  color: #fff;
+}
+
+.card #basic {
+  padding: 30px 0 20px 30px;
+  display: flex;
+  align-items: center;
+  gap: 148px;
+  border-radius: 8px 8px 0px 0px;
+  background: #ffcc29;
+  box-shadow: 0px 1px 2px 0px rgba(142, 150, 185, 0.25);
+}
+
+.card #basic h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1d539e;
+}
+
+.card #basic #popular {
+  display: inline-flex;
+  padding: 8px 24px;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  background: #1d539e;
+
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+}
